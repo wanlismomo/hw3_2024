@@ -139,8 +139,8 @@ div.skip a:focus {
 /* Step 4: Write selector/rule property to style the container */
 .container {
   display: grid;
-  grid-template-columns: 1fr 6fr 1fr;
-  row-gap: 20px;
+  grid-template-columns: 1fr 5fr 1fr;
+  gap: 20px;
 }
 
 /* Step 5: Write selector/rule property to add the background image to the 
@@ -152,11 +152,6 @@ first div in the grid and place it in the grid. */
   background-size: cover; 
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   
   height: 50vh;
   text-align: center;
@@ -272,8 +267,8 @@ first div in the grid and place it in the grid. */
   /* Step 10: Write the selector/rule property to update the .container class */
   .container{
     display: grid;
-    grid-template-columns: 60px auto 600px auto 60px;
-    row-gap: 20px;
+    grid-template-columns: 50px auto 500px auto 50px;
+    gap: 20px;
   }
 
   /* Steps 11 and 12: Update the grid-column property of the grid's children (where-needed)*/

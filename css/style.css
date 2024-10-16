@@ -151,10 +151,6 @@ first div in the grid and place it in the grid. */
   background-size: cover; 
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
-  height: 50vh;
-  text-align: center;
-  padding: 20px 0;
 }
 
 .overview h1 {
